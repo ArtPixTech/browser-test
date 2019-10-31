@@ -1,0 +1,25 @@
+{
+  "name": "browser-test",
+  "version": "1.0.0",
+  "description": "Test pages with browser emulation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Scanerrr",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest-puppeteer": "^4.3.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@entrptaher/pup-chain": "^1.0.1",
+    "puppeteer": "^1.19.0"
+  }
+}
